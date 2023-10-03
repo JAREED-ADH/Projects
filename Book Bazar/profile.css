@@ -1,0 +1,59 @@
+body{
+    background-image:  linear-gradient( rgba(0,0,0,.5), rgba(0,0,0,.5) ), url(./img/bguser.jpg);
+    background-size: cover;
+}
+.top{
+    padding: 0;
+    width: 100%;
+    height: 250px;
+    border-radius: 10px;
+}
+.top p{
+    text-align: bottom;
+}
+
+.contents{
+    height: 600px;
+    width: 600px;
+    
+    margin-left: 400px;
+    border: 3px solid black ;
+    border-radius: 20px;
+}
+
+.content-box{
+    height: 50px;
+    width: 100%;
+    
+    margin: 10px;
+    display: inline-block ;
+
+
+}
+.li{
+    font-size: 14pt;
+    padding-left: 40px ;
+    font-style: italic;
+    color: white;
+   
+}
+.profile-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 3px solid black;
+    margin-left: 200px;
+    
+    background-size:cover;
+    display:inline-block ;
+    background-image: url(./img/profile-pic.png);
+   
+}
+#u{
+    margin-left: 250px ;
+    color: white;
+}
+
+.contents.top h3{
+    color: white;
+}
